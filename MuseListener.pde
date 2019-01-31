@@ -2,6 +2,8 @@
 
 /// to start MUSE server use this in terminal muse-io --preset 14 --device <DEVICE_NAME> --osc osc.udp://localhost:5000
 
+/// this is tutorial site https://sites.google.com/a/interaxon.ca/muse-developer-site/museio/tutorial
+
 import oscP5.*;
 import netP5.*;
 import java.util.Map;
