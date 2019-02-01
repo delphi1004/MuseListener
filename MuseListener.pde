@@ -40,14 +40,9 @@ void oscEvent(OscMessage theOscMessage)
     {
       EEG[i] = theOscMessage.get(i).floatValue();
 
-      print("EEG on channel ", i, ": ", theOscMessage.get(i).floatValue(), "\n");
+      println("EEG on channel ", i, ": ", theOscMessage.get(i).floatValue());
     }
   }
-}
-
-void displayTags()
-{
-  ;
 }
 
 void draw()
